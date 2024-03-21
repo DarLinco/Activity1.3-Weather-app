@@ -1,0 +1,61 @@
+.main{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content:  space-around;
+    background-color: rgb(49, 37, 90);
+    color: aliceblue;
+}
+
+.input-group{
+    padding-bottom: 10vh;
+    width: 100%;
+}
+
+.weatherData{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content:  space-around;
+}
+
+.weatherData{
+    margin: 2vh;
+    
+}
+
+
+.card{
+    background-color: rgba(149, 131, 170, 0.5);
+    justify-content:  space-between;
+}
+
+.city{
+    font-size: 40px;
+}
+
+.temperature{
+    font-size: 60px;
+
+}
+
+.mini-cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    width: 50%;
+    height: 50%;
+    
+}
+
+.form-control{
+    width: 100vh;
+}
+
+.icon{
+    width: 10vh;
+
+}
